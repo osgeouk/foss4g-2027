@@ -17,7 +17,7 @@
 
 <div class={`card bg-${color} mb-4 rounded-4xl sm:mb-0 ${className}`}>
   <div
-    class={`card-body flex flex-col justify-between px-6 py-8 sm:px-8 sm:py-10 text-${color === 'primary' ? 'white' : 'primary'} gap-4`}
+    class={`card-body flex flex-col justify-between px-6 py-8 sm:px-8 sm:py-10 text-${color === 'primary' ? 'white' : 'primary'} gap-4 [&_strong]:text-current`}
   >
     <div class={`flex flex-col gap-4 font-${color === 'primary' ? 'light' : 'light'}`}>
       <div class="text-2xl font-light">{title}</div>

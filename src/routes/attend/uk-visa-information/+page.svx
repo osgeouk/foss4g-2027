@@ -1,0 +1,104 @@
+---
+title: UK Visa Information
+---
+
+<svelte:head>
+  <title>UK Visa Information</title>
+</svelte:head>
+
+<script lang="ts">
+  import Heading from '$components/Heading.svelte';
+  import Card from '$components/Card.svelte';
+</script>
+
+<Heading>UK Visa Information</Heading>
+
+FOSS4G 2027 takes place in **Bristol, United Kingdom** from **23 to 29 August 2027**. Depending on your nationality, you will need either an **Electronic Travel Authorisation (ETA)** or a **Standard Visitor visa** to attend.
+
+The quickest way to find out what applies to you is the UK government's [Check if you need a UK visa](https://www.gov.uk/check-uk-visa) tool.
+
+<main class="my-4 space-y-5">
+
+  <div class="grid grid-cols-1 space-y-4 pb-4 sm:grid-cols-2 sm:space-y-0 sm:space-x-4">
+
+    <div class="flex flex-col gap-y-4 sm:flex-col">
+
+      <Card title="British and Irish Citizens" color="primary">
+          <div>
+            If you are a <strong>British or Irish citizen</strong>, you do not need a visa or an ETA to travel to the UK.
+          </div>
+          <div>
+            You also do not need an ETA if you already have a <strong>UK visa</strong> or <strong>permission to live, work or study in the UK</strong>.
+          </div>
+      </Card>
+
+      <Card title="Visa Required" color="secondary" button={{ href: 'https://www.gov.uk/standard-visitor', text: 'Standard Visitor visa' }}>
+          <div>
+            If you are not eligible for an ETA, you will need to apply for a <strong>Standard Visitor visa</strong> before you travel.
+          </div>
+          <div>
+            <ul>
+              <li><strong>Cost</strong>: £135 for up to 6 months</li>
+              <li><strong>Earliest application</strong>: 3 months before you travel</li>
+              <li><strong>Decision</strong>: usually within 3 weeks</li>
+              <li>You will need to attend a <strong>visa application centre</strong> to provide your fingerprints and photo</li>
+            </ul>
+          </div>
+      </Card>
+
+    </div>
+    <div class="flex flex-col gap-y-4 sm:flex-col">
+
+      <Card title="Electronic Travel Authorisation (ETA)" color="secondary" button={{ href: 'https://www.gov.uk/eta', text: 'Apply for an ETA' }}>
+          <div>
+            Visitors who do not need a visa, including those from <strong>Europe, the USA, Australia, Canada</strong> and certain other countries, must get an <strong>ETA</strong> before travelling to the UK.
+          </div>
+          <div>
+            <ul>
+              <li><strong>Cost</strong>: £20</li>
+              <li><strong>Apply</strong>: using the UK ETA app or online</li>
+              <li><strong>Decision</strong>: usually within 1 day, but allow up to 3 working days</li>
+              <li><strong>Valid for</strong>: 2 years, or until your passport expires if sooner</li>
+              <li>Every traveller needs their own ETA, including babies and children</li>
+            </ul>
+          </div>
+          <div>
+            Only apply through GOV.UK or the official UK ETA app. Other websites may charge more.
+          </div>
+      </Card>
+
+    </div>
+
+  </div>
+
+</main>
+
+## Attending and speaking at the conference
+
+Visitors to the UK are allowed to attend **conferences and seminars**, provided they are not paid by a UK-based organisation for doing so. You may also give a talk, as long as it is not organised for profit or as a commercial event.
+
+If you are being **paid** to speak at an event in the UK, this may need to be done as a **Permitted Paid Engagement**, which requires a written invitation from the event organiser.
+
+For details, see:
+
+- [Visit the UK on business](https://www.gov.uk/standard-visitor/visit-on-business)
+- [Permitted Paid Engagements](https://www.gov.uk/standard-visitor/paid-engagement-event)
+- [Visit the UK as an academic](https://www.gov.uk/standard-visitor/visit-as-an-academic)
+
+## Visa support for FOSS4G 2027 attendees
+
+The FOSS4G 2027 organisers will be able to issue a **letter of invitation** to registered attendees to support a Standard Visitor visa application. Details of how to request a letter will be published here once registration opens.
+
+As visa applications can be made up to **3 months before you travel**, we recommend that attendees who need a visa apply as early as possible, from late May 2027.
+
+If you have any questions, please contact us at [info@foss4g.org](mailto:info@foss4g.org).
+
+## Useful links
+
+- [Check if you need a UK visa](https://www.gov.uk/check-uk-visa)
+- [Get an electronic travel authorisation (ETA)](https://www.gov.uk/eta)
+- [Apply for an electronic travel authorisation (ETA)](https://www.gov.uk/guidance/apply-for-an-electronic-travel-authorisation-eta)
+- [Standard Visitor visa](https://www.gov.uk/standard-visitor)
+- [Apply for a Standard Visitor visa](https://www.gov.uk/standard-visitor/apply-standard-visitor-visa)
+
+UK immigration rules and fees can change. Please always check the latest guidance on [GOV.UK](https://www.gov.uk/browse/visas-immigration) before you travel.
