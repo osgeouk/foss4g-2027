@@ -73,6 +73,10 @@
       {
         label: 'Register',
         url: '/attend/register'
+      },
+      {
+        label: 'Travel Grant Programme',
+        url: '/attend/travel-grant-program'
       }
       // {
       //   label: 'Merchandise',
@@ -105,10 +109,6 @@
       // {
       //   label: 'Accommodation',
       //   url: '/attend/accommodation'
-      // },
-      // {
-      //   label: 'Travel Grant Program',
-      //   url: '/attend/travel-grant-program'
       // }
     ]
   };

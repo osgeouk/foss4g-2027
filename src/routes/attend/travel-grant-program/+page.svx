@@ -1,0 +1,113 @@
+---
+title: Travel Grant Programme
+---
+
+<svelte:head>
+  <title>Travel Grant Programme</title>
+</svelte:head>
+
+<script lang="ts">
+  import Heading from '$components/Heading.svelte';
+  import Link from '$components/Link.svelte';
+</script>
+
+<Heading>Travel Grant Programme</Heading>
+
+![FOSS4G Group Photo]($images/foss4g-2025-group-photo.jpg)
+
+FOSS4G 2027 in Bristol (23–29 August 2027) will again offer a Travel Grant Programme (TGP) to help community members attend who would otherwise be unable to. This page outlines how the programme is expected to work, based on previous FOSS4G conferences.
+
+**Please note: the dates, grant tiers and application process for FOSS4G 2027 are yet to be confirmed. All details marked TBC below are placeholders and will be updated once the programme opens.**
+
+[Join our Mailing List](https://mailchi.mp/foss4g/mailing-list) to be notified when TGP applications open.
+
+## About the TGP
+
+The [OSGeo FOSS4G Travel Grant Program](https://www.osgeo.org/initiatives/foss4g-travel-grant-program/) was established by the OSGeo Board in 2017 to facilitate accessibility and diversity at global and regional FOSS4G events. The programme is managed by the OSGeo Conference Committee together with each FOSS4G organising team.
+
+The TGP is funded by an annual commitment from the OSGeo Board, sponsor donations, collections at FOSS4G events, and an ongoing crowdfunding campaign. The number of grants available depends on this funding and on the number of applications received.
+
+You can support the programme by [donating to the OSGeo Travel Grant Program](https://www.osgeo.org/initiatives/foss4g-travel-grant-program/).
+
+## Timeline
+
+| Milestone                        | Date |
+| -------------------------------- | ---- |
+| Applications open                | TBC  |
+| Applications close               | TBC  |
+| Evaluation of applications       | TBC  |
+| Applicants notified of outcome   | TBC  |
+| Acceptance due by                | TBC  |
+
+## Grant tiers
+
+Grants are expected to be awarded as a lump sum contribution towards travel, accommodation or other expenses, together with a full conference ticket.
+
+| Tier  | Applicants from | Grant (max) |
+| :---: | --------------- | :---------: |
+| **1** | TBC             | TBC         |
+| **2** | TBC             | TBC         |
+| **3** | TBC             | TBC         |
+
+The size and number of grants may be adjusted at the discretion of the Conference Committee, depending on the funding raised and the applications received.
+
+- You may only apply for one grant tier. Applying for more than one grant will lead to exclusion.
+- Please apply for the smallest grant that would enable you to attend.
+
+## Who should apply
+
+The aim of the programme is to make FOSS4G more accessible to community members, with a particular focus on people from groups that are usually underrepresented. This includes, but is not limited to:
+
+- People who would not be able to attend without funding assistance.
+- People from low and middle income countries.
+- People attending FOSS4G for the first time.
+- Women, minority genders and other underrepresented groups.
+- Refugees and displaced people.
+- Students, including PhD students, and community workers without workplace or government funding.
+- People presenting a talk or workshop at FOSS4G 2027.
+- People who contribute to OSGeo projects and open communities, such as open source software or OpenStreetMap.
+
+## Selection criteria
+
+Previous FOSS4G conferences have ranked applications using a points system. The criteria for FOSS4G 2027 are TBC, but are expected to be similar to the following:
+
+| Criteria                                                         | Points           |
+| ---------------------------------------------------------------- | ---------------- |
+| Nationality (World Bank income group: low / lower-middle / upper-middle / high) | 1.5 / 1 / 0.5 / 0 |
+| Country of residence (World Bank income group: low / lower-middle / upper-middle / high) | 1.5 / 1 / 0.5 / 0 |
+| Refugee or displaced person                                      | 1                |
+| Women and other underrepresented groups                          | 1                |
+| Student (including PhD students)                                 | 1                |
+| Accepted talk or workshop (one presenting author only)           | 3                |
+| Submitted talk or workshop that was not selected                 | 1                |
+| Past contributions to OSGeo projects or community                | 3                |
+| Demonstrated usage and experience with OSGeo software            | 1                |
+
+A small number of places may be reserved for unique and outstanding applications.
+
+## Conditions
+
+- You must be able to cover the direct costs of your travel to Bristol upfront.
+- You are responsible for holding a valid visa for entry to the United Kingdom, if required.
+- Successful applicants receive a conference pass, and expenses are reimbursed up to the grant limit after checking in at the registration desk. Details of the reimbursement method are TBC.
+- Advance payment, or direct payment of specific travel costs, may be possible in cases of demonstrated need. Please get in touch if paying upfront would prevent you from attending.
+- Grant recipients may be asked to volunteer during the conference (TBC). See [Volunteering](/attend/volunteering) for more information.
+- Unsuccessful applicants may be offered a place on a standby list in case grants become available.
+
+## How to apply
+
+The application form will be published here once the programme opens (TBC).
+
+Applicant data will be kept confidential and only used for assessing TGP applications. Please make sure the email address you provide is regularly monitored, as the selection committee may contact you for clarification.
+
+If you have any questions about the Travel Grant Programme, please email the [TGP Committee](mailto:tgp@foss4g.org).
+
+## Previous programmes
+
+Find out how the Travel Grant Programme has run at previous FOSS4G conferences:
+
+- [FOSS4G 2022 Firenze](https://2022.foss4g.org/travel_grant_programme.php)
+- [FOSS4G 2023 Prizren](https://2023.foss4g.org/register/travel-grant/)
+- [FOSS4G 2024 Belém](https://2024.foss4g.org/en/travel-grant-program/)
+- [FOSS4G 2025 Auckland](https://2025.foss4g.org/attend/travel-grant-program)
+- [FOSS4G 2026 Hiroshima](https://2026.foss4g.org/en/register/travel-grant/)
