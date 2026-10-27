@@ -13,7 +13,7 @@ title: Travel Grant Programme
 
 <Heading>Travel Grant Programme</Heading>
 
-![FOSS4G Group Photo]($images/foss4g-2025-group-photo.jpg)
+![FOSS4G 2022 Firenze Volunteers]($images/volunteers-firenze-2022.jpg)
 
 FOSS4G 2027 in Bristol (23–29 August 2027) will again offer a Travel Grant Programme (TGP) to help community members attend who would otherwise be unable to. This page outlines how the programme is expected to work, based on previous FOSS4G conferences.
 
