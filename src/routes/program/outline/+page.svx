@@ -1,0 +1,39 @@
+---
+title: Program Outline
+---
+
+<svelte:head>
+  <title>Program Outline</title>
+</svelte:head>
+
+<script lang="ts">
+  import Heading from '$components/Heading.svelte';
+</script>
+
+<Heading>Program Outline</Heading>
+
+FOSS4G 2027 takes place in Bristol, United Kingdom, from Monday 23 to Sunday 29 August 2027.
+
+| Date                  | Session                             | Venue                                                 |
+| --------------------- | ----------------------------------- | ----------------------------------------------------- |
+| Monday 23 August      | Workshops                           | UoB Humanities                                        |
+| Tuesday 24 August     | Workshops                           | UoB Humanities                                        |
+| Wednesday 25 August   | Conference                          | UoB Wills Memorial Building and the Chemistry Building |
+| Thursday 26 August    | Conference                          | UoB Wills Memorial Building and the Chemistry Building |
+| Friday 27 August      | Conference                          | UoB Wills Memorial Building and the Chemistry Building |
+| Saturday 28 August    | Community Events and Code Sprint    | To be confirmed                                       |
+| Sunday 29 August      | Community Events and Code Sprint    | To be confirmed                                       |
+
+## Social Events
+
+| Date                  | Event                   | Time           | Venue                      |
+| --------------------- | ----------------------- | -------------- | -------------------------- |
+| Monday 23 August      | Informal Social         | 19:00          | White Lion Pub, Clifton    |
+| Tuesday 24 August     | B2B Event               | 16:00 - 18:00  | Main conference venue      |
+| Tuesday 24 August     | GeoChicas Take Bristol  | 19:00 - late   | To be confirmed            |
+| Wednesday 25 August   | Ice Breaker Social      | 19:00 - late   | Zero Degrees Micro Brewery |
+| Thursday 26 August    | [Gala Dinner](/program/gala-dinner) | 19:00 - 01:00  | Ashton Gate Stadium        |
+
+Further details will be announced as the program is finalised.
+
+[Join our Mailing List](https://mailchi.mp/foss4g/mailing-list) to receive updates on the programme.

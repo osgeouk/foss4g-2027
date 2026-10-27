@@ -1,0 +1,45 @@
+---
+title: Gala Dinner
+---
+
+<svelte:head>
+  <title>Gala Dinner</title>
+</svelte:head>
+
+<script lang="ts">
+  import Heading from '$components/Heading.svelte';
+  import Stadium from '$images/ashton-gate-rainbow.jpg?enhanced';
+  import Dinner from '$images/ashton-gate-dinner.jpg?enhanced';
+
+  const stadiumAlt = 'Rainbow over the Dolman Stand at Ashton Gate Stadium';
+  const dinnerAlt = 'Tables set for a dinner event at Ashton Gate Stadium';
+</script>
+
+<enhanced:img src={Stadium} alt={stadiumAlt} />
+
+<Heading>Gala Dinner</Heading>
+
+**Thursday 26th August - 7pm until 1am**
+
+Join the global FOSS4G community for an unforgettable evening of celebration, connection, and entertainment at our Gala Dinner. This is the highlight social event of the conference, bringing together attendees from around the world for an evening of fine dining, music, and celebration of our shared passion for open source geospatial technology.
+
+## Venue
+
+Ashton Gate Stadium
+Ashton Road
+Bristol BS3 2EJ
+
+Ashton Gate is Bristol's largest stadium and home to Bristol City Football Club and the Bristol Bears rugby team. Its event spaces provide a spectacular setting for our gala celebration.
+
+<enhanced:img src={Dinner} alt={dinnerAlt} />
+
+## What to Expect
+
+- **Exceptional Dining**: Enjoy a multi-course dinner in one of Bristol's landmark venues
+- **Music & Dancing**: Dance the night away on our dedicated dance floor
+- **Networking**: Connect with colleagues and friends from the global geospatial community
+- **Celebration**: Toast to another successful FOSS4G conference
+
+The Gala Dinner is a highlight of every FOSS4G conference - an opportunity to celebrate our community's achievements, forge new friendships, and create lasting memories with fellow open source enthusiasts from around the world.
+
+Ticket information will be announced when registration opens. [Join our Mailing List](https://mailchi.mp/foss4g/mailing-list) to stay up to date.
