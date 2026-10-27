@@ -73,43 +73,43 @@
       {
         label: 'Register',
         url: '/attend/register'
-      },
-      {
-        label: 'Merchandise',
-        url: '/attend/merch'
-      },
-      {
-        label: 'Conference QField App',
-        url: '/attend/app'
-      },
-      {
-        label: 'Entry into New Zealand',
-        url: '/attend/travelling-to-nz'
-      },
-      {
-        label: 'Transport Information',
-        url: '/attend/transport'
-      },
-      {
-        label: 'Conference Venue',
-        url: '/attend/conference-venue'
-      },
-      {
-        label: 'Travel Guide',
-        url: '/attend/nz-travel-guide'
-      },
-      {
-        label: 'Adventure Guide',
-        url: '/attend/nz-adventures'
-      },
-      {
-        label: 'Accommodation',
-        url: '/attend/accommodation'
-      },
-      {
-        label: 'Travel Grant Program',
-        url: '/attend/travel-grant-program'
       }
+      // {
+      //   label: 'Merchandise',
+      //   url: '/attend/merch'
+      // },
+      // {
+      //   label: 'Conference QField App',
+      //   url: '/attend/app'
+      // },
+      // {
+      //   label: 'Entry into New Zealand',
+      //   url: '/attend/travelling-to-nz'
+      // },
+      // {
+      //   label: 'Transport Information',
+      //   url: '/attend/transport'
+      // },
+      // {
+      //   label: 'Conference Venue',
+      //   url: '/attend/conference-venue'
+      // },
+      // {
+      //   label: 'Travel Guide',
+      //   url: '/attend/nz-travel-guide'
+      // },
+      // {
+      //   label: 'Adventure Guide',
+      //   url: '/attend/nz-adventures'
+      // },
+      // {
+      //   label: 'Accommodation',
+      //   url: '/attend/accommodation'
+      // },
+      // {
+      //   label: 'Travel Grant Program',
+      //   url: '/attend/travel-grant-program'
+      // }
     ]
   };
 
@@ -177,7 +177,7 @@
     url: '/program/schedule'
   };
 
-  let menuItems = [About];
+  let menuItems = [About, Attend];
 
   // Helper function to check if current page matches a menu item
   function isMenuItemActive(menuItem: (typeof menuItems)[0]) {

@@ -1,0 +1,22 @@
+---
+title: Register
+---
+
+<svelte:head>
+  <title>Register</title>
+</svelte:head>
+
+<script lang="ts">
+  import Heading from '$components/Heading.svelte';
+  import Link from '$components/Link.svelte';
+</script>
+
+<Heading>Register</Heading>
+
+## Registration opening soon
+
+Super early bird registration for FOSS4G 2027 in Bristol is expected to open in **January 2027**.
+
+## Stay up to date
+
+[Join our Mailing List](https://mailchi.mp/foss4g/mailing-list) to receive updates on registration, the programme, the travel grant programme, and volunteer opportunities.
