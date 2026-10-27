@@ -73,18 +73,6 @@ The quickest way to find out what applies to you is the UK government's [Check i
 
 </main>
 
-## Attending and speaking at the conference
-
-Visitors to the UK are allowed to attend **conferences and seminars**, provided they are not paid by a UK-based organisation for doing so. You may also give a talk, as long as it is not organised for profit or as a commercial event.
-
-If you are being **paid** to speak at an event in the UK, this may need to be done as a **Permitted Paid Engagement**, which requires a written invitation from the event organiser.
-
-For details, see:
-
-- [Visit the UK on business](https://www.gov.uk/standard-visitor/visit-on-business)
-- [Permitted Paid Engagements](https://www.gov.uk/standard-visitor/paid-engagement-event)
-- [Visit the UK as an academic](https://www.gov.uk/standard-visitor/visit-as-an-academic)
-
 ## Visa support for FOSS4G 2027 attendees
 
 The FOSS4G 2027 organisers will be able to issue a **letter of invitation** to registered attendees to support a Standard Visitor visa application. Details of how to request a letter will be published here once registration opens.
