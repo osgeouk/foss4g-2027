@@ -14,79 +14,59 @@ title: UK Visa Information
 
 <Heading>UK Visa Information</Heading>
 
-FOSS4G 2027 takes place in **Bristol, United Kingdom** from **23 to 29 August 2027**. 
+FOSS4G 2027 takes place in **Bristol, United Kingdom** from **23 to 29 August 2027**.
 
-*Depending on your nationality, you may need either an **Electronic Travel Authorisation (ETA)** or a **Standard Visitor visa** to attend.*
-
-<Card title="Check your visa requirements" color="secondary">
+<Card title="Check your visa requirements" color="secondary" compact>
+  <p class="m-0">Depending on your nationality, you may need either an <strong>Electronic Travel Authorisation (ETA)</strong> or a <strong>Standard Visitor visa</strong> to attend.</p>
   <p class="m-0">The quickest way to find out what applies to you is the UK government's <a href="https://www.gov.uk/check-uk-visa">Check if you need a UK visa</a> tool.</p>
 </Card>
 
 
-*We provide this information for general guidance only and are not liable if it is incorrect or incomplete. If you are not sure, please check the information on the GOV.UK website*
+We provide this information for general guidance only and are not liable if it is incorrect or incomplete. If you are not sure, please check the information on the GOV.UK website.
 
 <h3 class="text-2xl font-light">British and Irish Citizens</h3>
-        <p>
-          If you are a <strong>British or Irish citizen</strong>, you do not need a visa or an ETA to travel to the UK.
-        </p>
-        <p>
-          You also do not need an ETA if you already have a <strong>UK visa</strong> or <strong>permission to live, work or study in the UK</strong>.
-        </p>
-
+<p>
+  If you are a <strong>British or Irish citizen</strong>, you do not need a visa or an ETA to travel to the UK.
+</p>
+<p>
+  You also do not need an ETA if you already have a <strong>UK visa</strong> or <strong>permission to live, work or study in the UK</strong>.
+</p>
 
 <main class="my-4 space-y-5">
-
   <div class="grid grid-cols-1 space-y-4 pb-4 sm:grid-cols-2 sm:space-y-0 sm:space-x-4">
-
-    <div class="flex flex-col gap-y-4 sm:flex-col">
-
-      <section>
-        
-      </section>
-
-      <section>
-        <h3 class="text-2xl font-light">Visa Required</h3>
-        <p>
-          If you are not eligible for an ETA, you will need to apply for a <strong>Standard Visitor visa</strong> before you travel.
-        </p>
-        <ul>
-          <li><strong>Cost</strong>: £135 for up to 6 months</li>
-          <li><strong>Earliest application</strong>: 3 months before you travel</li>
-          <li><strong>Decision</strong>: usually within 3 weeks</li>
-          <li>You will need to attend a <strong>visa application centre</strong> to provide your fingerprints and photo</li>
-        </ul>
-        <Button href="https://www.gov.uk/standard-visitor">Standard Visitor visa</Button>
-      </section>
-
-    </div>
-    <div class="flex flex-col gap-y-4 sm:flex-col">
-
-      <section>
-        <h3 class="text-2xl font-light">Electronic Travel Authorisation (ETA)</h3>
-        <p>
-          Visitors who do not need a visa, including those from <strong>Europe, the USA, Australia, Canada</strong> and certain other countries, must get an <strong>ETA</strong> before travelling to the UK.
-        </p>
-        <ul>
-          <li><strong>Cost</strong>: £20</li>
-          <li><strong>Apply</strong>: using the UK ETA app or online</li>
-          <li><strong>Decision</strong>: usually within 1 day, but allow up to 3 working days</li>
-          <li><strong>Valid for</strong>: 2 years, or until your passport expires if sooner</li>
-          <li>Every traveller needs their own ETA, including babies and children</li>
-        </ul>
-        <p>
-          Only apply through GOV.UK or the official UK ETA app. Be aware that other websites may charge more.
-        </p>
-        <Button href="https://www.gov.uk/eta">Apply for an ETA</Button>
-      </section>
-
-    </div>
-
+    <Card title="Visa Required" color="secondary" compact>
+      <p>
+        If you are not eligible for an ETA, you will need to apply for a <strong>Standard Visitor visa</strong> before you travel.
+      </p>
+      <ul>
+        <li><strong>Cost</strong>: £135 for up to 6 months</li>
+        <li><strong>Earliest application</strong>: 3 months before you travel</li>
+        <li><strong>Decision</strong>: usually within 3 weeks</li>
+        <li>You will need to attend a <strong>visa application centre</strong> to provide your fingerprints and photo</li>
+      </ul>
+      <Button href="https://www.gov.uk/standard-visitor">Standard Visitor visa</Button>
+    </Card>
+    <Card title="Electronic Travel Authorisation (ETA)" color="secondary" compact>
+      <p>
+        Visitors who do not need a visa, including those from <strong>Europe, the USA, Australia, Canada</strong> and certain other countries, must get an <strong>ETA</strong> before travelling to the UK.
+      </p>
+      <ul>
+        <li><strong>Cost</strong>: £20</li>
+        <li><strong>Apply</strong>: using the UK ETA app or online</li>
+        <li><strong>Decision</strong>: usually within 1 day, but allow up to 3 working days</li>
+        <li><strong>Valid for</strong>: 2 years, or until your passport expires if sooner</li>
+        <li>Every traveller needs their own ETA, including babies and children</li>
+      </ul>
+      <p>
+        Only apply through GOV.UK or the official UK ETA app. Be aware that other websites may charge more.
+      </p>
+      <Button href="https://www.gov.uk/eta">Apply for an ETA</Button>
+    </Card>
   </div>
-
 </main>
 
 <Card title="Visa support for FOSS4G 2027 attendees">
-  <p class="m-0"> 
+  <p class="m-0">
   The FOSS4G 2027 organisers will be able to issue a <b>letter of invitation</b> to registered attendees to support a Standard Visitor visa application. Details of how to request a letter will be published here once registration opens.
   <br />
   As visa applications can be made up to <b>3 months before you travel</b>, we recommend that attendees who need a visa apply as early as possible, from late May 2027.
