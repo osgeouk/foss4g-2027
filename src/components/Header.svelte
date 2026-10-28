@@ -73,6 +73,10 @@
       {
         label: 'Register',
         url: '/attend/register'
+      },
+      {
+        label: 'UK Visa Information',
+        url: '/attend/uk-visa-information'
       }
       // {
       //   label: 'Merchandise',
@@ -81,10 +85,6 @@
       // {
       //   label: 'Conference QField App',
       //   url: '/attend/app'
-      // },
-      // {
-      //   label: 'Entry into New Zealand',
-      //   url: '/attend/travelling-to-nz'
       // },
       // {
       //   label: 'Transport Information',
