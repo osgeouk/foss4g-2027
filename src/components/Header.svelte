@@ -77,6 +77,14 @@
       {
         label: 'Travel Grant Programme',
         url: '/attend/travel-grant-program'
+      },
+      {
+        label: 'UK Visa Information',
+        url: '/attend/uk-visa-information'
+      },
+      {
+        label: 'Childcare',
+        url: '/attend/childcare'
       }
       // {
       //   label: 'Merchandise',
@@ -85,10 +93,6 @@
       // {
       //   label: 'Conference QField App',
       //   url: '/attend/app'
-      // },
-      // {
-      //   label: 'Entry into New Zealand',
-      //   url: '/attend/travelling-to-nz'
       // },
       // {
       //   label: 'Transport Information',
@@ -118,57 +122,57 @@
     url: '/program/outline',
     subMenu: [
       {
-        label: 'Schedule',
-        url: '/program/schedule'
-      },
-      {
-        label: 'Workshops',
-        url: '/program/workshops'
-      },
-      {
         label: 'Outline',
         url: '/program/outline'
       },
       {
-        label: 'Events',
-        url: '/program/events'
-      },
-      {
-        label: '- Movie Screening',
-        url: '/program/movie-screening'
-      },
-      {
-        label: '- B2B Event',
-        url: '/program/b2b-event'
-      },
-      {
-        label: '- Ice Breaker',
-        url: '/program/ice-breaker'
-      },
-      {
-        label: '- Travel Grant Breakfast',
-        url: '/program/travel-grant-breakfast'
-      },
-      {
-        label: '- Gala Dinner',
+        label: 'Gala Dinner',
         url: '/program/gala-dinner'
-      },
-      {
-        label: '- GeoChicas',
-        url: '/program/geochicas'
-      },
-      {
-        label: '- Rangitoto Day Trip',
-        url: '/program/rangitoto'
-      },
-      {
-        label: '- Community Events and Code Sprints',
-        url: '/program/community-day'
-      },
-      {
-        label: '- Birds of a Feather',
-        url: '/program/bof'
       }
+      // {
+      //   label: 'Schedule',
+      //   url: '/program/schedule'
+      // },
+      // {
+      //   label: 'Workshops',
+      //   url: '/program/workshops'
+      // },
+      // {
+      //   label: 'Events',
+      //   url: '/program/events'
+      // },
+      // {
+      //   label: '- Movie Screening',
+      //   url: '/program/movie-screening'
+      // },
+      // {
+      //   label: '- B2B Event',
+      //   url: '/program/b2b-event'
+      // },
+      // {
+      //   label: '- Ice Breaker',
+      //   url: '/program/ice-breaker'
+      // },
+      // {
+      //   label: '- Travel Grant Breakfast',
+      //   url: '/program/travel-grant-breakfast'
+      // },
+      // {
+      //   label: '- GeoChicas',
+      //   url: '/program/geochicas'
+      // },
+      // {
+      //   label: '- Rangitoto Day Trip',
+      //   url: '/program/rangitoto'
+      // },
+      // {
+      //   label: '- Community Events and Code Sprints',
+      //   url: '/program/community-day'
+      // },
+      // {
+      //   label: '- Birds of a Feather',
+      //   url: '/program/bof'
+      // }
     ]
   };
 
@@ -177,7 +181,7 @@
     url: '/program/schedule'
   };
 
-  let menuItems = [About, Attend];
+  let menuItems = [About, Attend, Programme];
 
   // Helper function to check if current page matches a menu item
   function isMenuItemActive(menuItem: (typeof menuItems)[0]) {

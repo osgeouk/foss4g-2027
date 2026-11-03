@@ -1,0 +1,54 @@
+---
+title: UK Visa Information
+---
+
+<svelte:head>
+  <title>UK Visa Information</title>
+</svelte:head>
+
+<script lang="ts">
+  import Heading from '$components/Heading.svelte';
+  import Card from '$components/Card.svelte';
+</script>
+
+<Heading>UK Visa Information</Heading>
+
+FOSS4G 2027 takes place in **Bristol, United Kingdom** from **23 to 29 August 2027**.
+
+<Card title="Check your visa requirements" color="secondary" compact>
+  <p class="m-0">Depending on your nationality, you may need either an <strong>Electronic Travel Authorisation (ETA)</strong> or a <strong>Standard Visitor visa</strong> to attend.</p>
+  <p class="m-0">The quickest way to find out what applies to you is the UK government's <a href="https://www.gov.uk/check-uk-visa">Check if you need a UK visa</a> tool.</p>
+</Card>
+
+
+We provide this information for general guidance only and are not liable if it is incorrect or incomplete. If you are not sure, please check the information on the GOV.UK website.
+
+<h3 class="text-2xl font-light">British and Irish Citizens</h3>
+<p>
+  If you are a <strong>British or Irish citizen</strong>, you do not need a visa or an ETA to travel to the UK.
+</p>
+<p>
+  You also do not need an ETA if you already have a <strong>UK visa</strong> or <strong>permission to live, work or study in the UK</strong>.
+</p>
+
+<Card title="Visa support for FOSS4G 2027 attendees">
+  <p class="m-0">
+  The FOSS4G 2027 organisers will be able to issue a <b>letter of invitation</b> to registered attendees to support a Standard Visitor visa application. Details of how to request a letter will be published here once registration opens.
+  <br />
+  As visa applications can be made up to <b>3 months before you travel</b>, we recommend that attendees who need a visa apply as early as possible, from late May 2027.
+  <br />
+  If you have any questions, please contact us at <a href="mailto:info@foss4g.org">info@foss4g.org</a>.
+  </p>
+</Card>
+
+## Useful links
+
+- [Check if you need a UK visa](https://www.gov.uk/check-uk-visa)
+- [Get an electronic travel authorisation (ETA)](https://www.gov.uk/eta)
+- [Apply for an electronic travel authorisation (ETA)](https://www.gov.uk/guidance/apply-for-an-electronic-travel-authorisation-eta)
+- [Standard Visitor visa](https://www.gov.uk/standard-visitor)
+- [Apply for a Standard Visitor visa](https://www.gov.uk/standard-visitor/apply-standard-visitor-visa)
+
+UK immigration rules and fees can change. Please always check the latest guidance on [GOV.UK](https://www.gov.uk/browse/visas-immigration) before you travel.
+
+

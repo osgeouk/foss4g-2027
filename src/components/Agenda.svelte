@@ -1,11 +1,13 @@
 <script lang="ts">
   import Button from './Button.svelte';
-  
+  import Link from './Link.svelte';
+
   interface AgendaItem {
     days: string;
     time: string;
     heading: string;
     description: string;
+    link?: string;
   }
 
   const agendaItems: AgendaItem[] = [
@@ -22,6 +24,37 @@
       heading: 'Conference',
       description:
         'Conference sessions will be held at UoB Wills Memorial Building and the Chemistry Building.'
+    },
+    {
+      days: 'Mon 23 Aug',
+      time: '19:00',
+      heading: 'Informal Social',
+      description: 'White Lion Pub, Clifton.'
+    },
+    {
+      days: 'Tue 24 Aug',
+      time: '16:00 - 18:00',
+      heading: 'B2B Event',
+      description: 'Main conference venue.'
+    },
+    {
+      days: 'Tue 24 Aug',
+      time: '19:00 - late',
+      heading: 'GeoChicas Take Bristol',
+      description: 'Venue to be confirmed.'
+    },
+    {
+      days: 'Wed 25 Aug',
+      time: '19:00 - late',
+      heading: 'Ice Breaker Social',
+      description: 'Zero Degrees Micro Brewery.'
+    },
+    {
+      days: 'Thu 26 Aug',
+      time: '19:00 - 01:00',
+      heading: 'Gala Dinner',
+      description: 'Ashton Gate Stadium.',
+      link: '/program/gala-dinner'
     },
     // {
     //   days: 'Sat 22, Sun 23 Nov',
@@ -40,7 +73,13 @@
       <div class="text-secondary">{item.time}</div>
     </div>
     <div class="sm:col-span-7">
-      <div class="mb-4 text-2xl">{item.heading}</div>
+      <div class="mb-4 text-2xl">
+        {#if item.link}
+          <Link href={item.link} class="underline hover:no-underline">{item.heading}</Link>
+        {:else}
+          {item.heading}
+        {/if}
+      </div>
       <p class="pr-0 text-sm">
         {item.description}
       </p>
