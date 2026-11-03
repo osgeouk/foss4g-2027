@@ -1,0 +1,24 @@
+---
+title: Childcare
+---
+
+<svelte:head>
+  <title>Childcare</title>
+</svelte:head>
+
+<script lang="ts">
+  import Heading from '$components/Heading.svelte';
+  import Card from '$components/Card.svelte';
+</script>
+
+<Heading>Childcare</Heading>
+
+We will provide childcare for dependents of delegates at FOSS4G 2027 in **Bristol, United Kingdom**.
+
+In order to organise the childcare support we need to sound out the requirements.
+
+<Card title="Tell us about your childcare needs" color="secondary" compact>
+  <p class="m-0">If you are planning to attend FOSS4G 2027 and are considering bringing your children and using the childcare support, please fill out <a href="https://forms.gle/SS4xLPo9Qqb3Mur18">this form</a>.</p>
+</Card>
+
+If you have any questions, please contact us at [info@foss4g.org](mailto:info@foss4g.org).

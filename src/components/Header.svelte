@@ -77,6 +77,10 @@
       {
         label: 'UK Visa Information',
         url: '/attend/uk-visa-information'
+      },
+      {
+        label: 'Childcare',
+        url: '/attend/childcare'
       }
       // {
       //   label: 'Merchandise',
