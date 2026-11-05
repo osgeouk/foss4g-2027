@@ -193,7 +193,11 @@
     </Card>
 
     <div class="flex flex-col-reverse sm:flex-col sm:gap-y-4">
-      <Card title="Visit Bristol" color="primary">
+      <Card
+        title="Visit Bristol"
+        color="primary"
+        button={{ href: '/about/visit-bristol', text: 'Discover Bristol' }}
+      >
         <div>
           If ever there was a city with a story to tell, it’s Bristol.
 Enveloped in the hills of South West England, Bristol has developed an inimitable identity and fiercely independent spirit, crafted by its passionate locals.
