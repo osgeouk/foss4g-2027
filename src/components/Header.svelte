@@ -1,6 +1,5 @@
 <script lang="ts">
   import Link from '$components/Link.svelte';
-  import pngLogo from '$images/FOSS4G2027-BRISTOL.png';
   import svgLogo from '$images/foss4g2027_header.svg';
   import { page } from '$app/state';
 
