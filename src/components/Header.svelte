@@ -27,6 +27,10 @@
         label: 'News',
         url: '/news'
       },
+      {
+        label: 'Newsletter',
+        url: '/newsletter'
+      },
       // {
       //   label: 'Map',
       //   url: '/map'
