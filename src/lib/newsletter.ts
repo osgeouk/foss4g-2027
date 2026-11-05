@@ -17,7 +17,7 @@ const editions: Edition[] = [
     date: 'November 2026',
     title: 'Newsletter #1: Getting ready for Bristol',
     summary:
-      'Pre-register for childcare, sponsor FOSS4G 2027, super early bird registration opening in January, and an introduction to Bristol.'
+      'An introduction to Bristol, childcare pre-registration, a call for sponsors, and super early bird registration opening in January.'
   }
 ];
 
