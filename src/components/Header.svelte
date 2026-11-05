@@ -36,6 +36,10 @@
         url: '/about/foss4g'
       },
       {
+        label: 'Visit Bristol',
+        url: '/about/visit-bristol'
+      },
+      {
         label: 'Organisers',
         url: '/organisers'
       },
