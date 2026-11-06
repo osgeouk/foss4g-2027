@@ -9,6 +9,24 @@ export const LEVELS = {
 };
 
 export default {
+  devseed: {
+    name: 'Development Seed',
+    logo: () => import('$images/logos/devseed.png?enhanced'),
+    link: 'https://developmentseed.org/',
+    level: LEVELS.GOLD
+  },
+  auspatious: {
+    name: 'Auspatious',
+    logo: () => import('$images/logos/auspatious.png?enhanced'),
+    link: 'https://auspatious.com/',
+    level: LEVELS.SILVER
+  },
+  oslandia: {
+    name: 'Oslandia',
+    logo: () => import('$images/logos/oslandia.png?enhanced'),
+    link: 'https://oslandia.com/',
+    level: LEVELS.SILVER
+  },
   uob: {
     name: 'University of Bristol',
     logo: () => import('$images/logos/university_of_bristol.png?enhanced'),
