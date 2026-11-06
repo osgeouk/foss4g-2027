@@ -17,7 +17,7 @@ export default {
   },
   auspatious: {
     name: 'Auspatious',
-    logo: () => import('$images/logos/auspatious.webp?enhanced'),
+    logo: () => import('$images/logos/auspatious.png?enhanced'),
     link: 'https://auspatious.com/',
     level: LEVELS.SILVER
   },
