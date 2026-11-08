@@ -3,7 +3,7 @@ title: Sponsorship
 ---
 
 <svelte:head>
-  <title>Sponsorship</title>
+  <title>Sponsorship Opportunities</title>
 </svelte:head>
 
 <script lang="ts">
