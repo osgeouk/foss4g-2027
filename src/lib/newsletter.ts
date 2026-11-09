@@ -36,6 +36,8 @@ export function getEditionHtml(slug: string): string | undefined {
 
 // Parts of an edition wrapped in <!-- mailchimp-only --> ... <!-- /mailchimp-only -->
 // (merge tags, "view in browser" link) are only meant for the email and get removed on the website.
+// Rows with class="mail-chrome" (email header and footer) are hidden unless the page adds the
+// "mail-view" class to the iframe document.
 // Image URLs are made site-relative so previews work before the images are deployed.
 export function webVersion(source: string): string {
   return source
@@ -44,7 +46,10 @@ export function webVersion(source: string): string {
       'https://foss4g2027.org/newsletter/images/',
       `${PUBLIC_BASE_PATH}/newsletter/images/`
     )
-    .replace('<head>', '<head><base target="_blank" />');
+    .replace(
+      '<head>',
+      '<head><base target="_blank" /><style>html:not(.mail-view) .mail-chrome { display: none !important; }</style>'
+    );
 }
 
 export default editions;

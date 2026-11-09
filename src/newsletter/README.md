@@ -33,5 +33,6 @@ Newsletter editions are written as HTML emails in this folder, reviewed through 
 
 - Use tables for layout and inline styles. Many email clients strip `<style>` blocks and ignore modern CSS.
 - Content wrapped in `<!-- mailchimp-only -->` and `<!-- /mailchimp-only -->` is removed on the website. Use it for Mailchimp merge tags such as `*|UNSUB|*` and for the "view in browser" link.
+- Rows with `class="mail-chrome"` (the email header and footer) are hidden on the website. Visitors can show them with the "Mail view" toggle above the edition.
 - Mailchimp requires the unsubscribe link and postal address (`*|HTML:LIST_ADDRESS_HTML|*`) in the footer. Do not remove them.
 - These files are excluded from Prettier so formatting does not change the email output.
