@@ -22,9 +22,6 @@
   <title>FOSS4G 2027</title>
 </svelte:head>
 
-<div class="bg-primary/90 mb-6 flex items-center gap-4 rounded-xl px-4 py-3 text-white">
-  <a href="https://2026.foss4g.org/en/" class="hover:underline">FOSS4G 2026</a>in Hiroshima, Japan has concluded! 🗾
-</div>
 {#if Editions.length > 0}
   <div class="bg-primary/90 mb-6 flex items-center gap-4 rounded-xl px-4 py-3 text-white">
     <span class="hidden whitespace-nowrap sm:inline">{Editions[0].date}</span>
