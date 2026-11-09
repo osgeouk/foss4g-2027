@@ -1,0 +1,59 @@
+---
+title: Academic Track
+---
+
+<svelte:head>
+  <title>Academic Track</title>
+</svelte:head>
+
+<script lang="ts">
+  import Heading from '$components/Heading.svelte';
+  import Card from '$components/Card.svelte';
+</script>
+
+<Heading>Academic Track</Heading>
+
+<Card title="Draft" color="secondary" compact>
+  <p class="m-0">This page is a draft. Dates, submission details and the publication venue for the FOSS4G 2027 Academic Track are still to be confirmed and may change.</p>
+</Card>
+
+The Academic Track at FOSS4G 2027 in **Bristol, United Kingdom** is a forum for researchers and practitioners to present original work on free and open source geospatial software, open data and open standards.
+
+Submission to the Academic Track has two mandatory steps: an extended abstract, followed by a full paper for accepted abstracts.
+
+<h3 class="text-2xl font-light">Timeline</h3>
+
+| Milestone | Date |
+| --- | --- |
+| Step 1: Abstract submission opens | TBC |
+| Step 1: Abstract submission deadline | TBC |
+| Abstract review period | TBC |
+| Abstract acceptance notification | TBC |
+| Step 2: Full paper submission deadline | TBC |
+| Conference | 23 to 29 August 2027 |
+
+<h3 class="text-2xl font-light">Step 1: Abstract submission</h3>
+
+- Abstracts must be written in English.
+- Abstracts should be between **800 and 1,000 words**.
+- All abstracts are reviewed by the Scientific Committee.
+
+<h3 class="text-2xl font-light">Step 2: Full paper submission</h3>
+
+Only authors of accepted abstracts are invited to submit a full paper.
+
+- Full papers are limited to **8 pages** and must use the official template (TBC).
+- Papers must present original research that has not been published elsewhere.
+- All papers are checked for template conformance and plagiarism.
+
+<h3 class="text-2xl font-light">Publication</h3>
+
+Accepted papers from previous FOSS4G Academic Tracks have been published in the <a href="https://isprs-archives.copernicus.org/articles/L-4-W1-2026/">ISPRS Archives</a>. The publication venue for 2027 will be announced here.
+
+<h3 class="text-2xl font-light">Registration</h3>
+
+All speakers and presenters must <a href="/attend/register">register for the conference</a>.
+
+<h3 class="text-2xl font-light">Contact</h3>
+
+If you have any questions about the Academic Track, please contact us at [academic@foss4g.org](mailto:academic@foss4g.org).
