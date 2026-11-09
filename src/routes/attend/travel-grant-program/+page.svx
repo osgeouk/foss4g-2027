@@ -45,9 +45,9 @@ Grants are awarded as a lump sum contribution towards travel, accommodation or o
 
 | Tier  | Applicants from                                                                                  | Grant (max) |
 | :---: | ------------------------------------------------------------------------------------------------ | :---------: |
-| **1** | Europe: United Kingdom and European Union                                                        | 300 USD     |
-| **2** | Europe outside the EU, Asia (not including countries in tier 3), North Africa and North America  | 600 USD     |
-| **3** | South America, Sub-Saharan Africa, South and South East Asia, and Oceania                        | 1200 USD    |
+| **1** | Europe: United Kingdom and European Union                                                        | £250        |
+| **2** | Europe outside the EU, Asia (not including countries in tier 3), North Africa and North America  | £500        |
+| **3** | South America, Sub-Saharan Africa, South and South East Asia, and Oceania                        | £1000       |
 
 The size and number of grants may be adjusted at the discretion of the Conference Committee, depending on the funding raised and the applications received.
 
