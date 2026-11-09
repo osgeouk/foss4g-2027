@@ -35,7 +35,6 @@ You can support the programme by [donating to the OSGeo Travel Grant Program](ht
 | Applications close               | TBC  |
 | Evaluation of applications       | TBC  |
 | Applicants notified of outcome   | TBC  |
-| Acceptance due by                | TBC  |
 
 ## Grant tiers
 
