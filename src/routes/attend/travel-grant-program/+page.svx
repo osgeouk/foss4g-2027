@@ -43,11 +43,11 @@ You can support the programme by [donating to the OSGeo Travel Grant Program](ht
 
 Grants are awarded as a lump sum contribution towards travel, accommodation or other expenses, together with a full conference ticket including a workshop and the gala dinner.
 
-| Tier  | Applicants from                                                                                  | Grant (max) |
-| :---: | ------------------------------------------------------------------------------------------------ | :---------: |
-| **1** | Europe: United Kingdom and European Union                                                        | £250        |
-| **2** | Europe outside the EU, Asia (not including countries in tier 3), North Africa and North America  | £500        |
-| **3** | South America, Sub-Saharan Africa, South and South East Asia, and Oceania                        | £1000       |
+| Tier  | Applicants from | Grant (max) |
+| :---: | --------------- | :---------: |
+| **1** | [United Kingdom](https://en.wikipedia.org/wiki/United_Kingdom) and [European Union](https://en.wikipedia.org/wiki/European_Union) | £250 |
+| **2** | [Europe](https://en.wikipedia.org/wiki/Europe) (not including countries in tier 1), [Asia](https://en.wikipedia.org/wiki/Asia) (not including countries in tier 3), [North Africa](https://en.wikipedia.org/wiki/North_Africa) and [North America](https://en.wikipedia.org/wiki/North_America) | £500 |
+| **3** | [South America](https://en.wikipedia.org/wiki/South_America), [Sub-Saharan Africa](https://en.wikipedia.org/wiki/Sub-Saharan_Africa), [South Asia](https://en.wikipedia.org/wiki/South_Asia), [Southeast Asia](https://en.wikipedia.org/wiki/Southeast_Asia) and [Oceania](https://en.wikipedia.org/wiki/Oceania) | £1000 |
 
 The size and number of grants may be adjusted at the discretion of the Conference Committee, depending on the funding raised and the applications received.
 
