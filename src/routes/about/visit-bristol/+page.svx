@@ -1,0 +1,87 @@
+---
+title: Visit Bristol
+---
+
+<svelte:head>
+  <title>Visit Bristol</title>
+</svelte:head>
+
+<script lang="ts">
+  import Heading from '$components/Heading.svelte';
+  import Card from '$components/Card.svelte';
+  import harbourFestival from '$images/visit-bristol-harbour-festival.jpg?enhanced';
+  import balloonFiesta from '$images/visit-bristol-balloon-fiesta.jpg?enhanced';
+  import refugeeFestival from '$images/bristol-refugee-festival.jpg?enhanced';
+</script>
+
+<Heading>Visit Bristol</Heading>
+
+<figure class="mb-8">
+  <enhanced:img
+    src={harbourFestival}
+    alt="Fireworks over Bristol's Harbourside at night during the Bristol Harbour Festival"
+    class="w-full rounded-4xl"
+  />
+  <figcaption class="mt-2 text-right text-xs text-slate-500">
+    Bristol Harbour Festival. Credit: Chris Bahn / <a href="https://visitbristol.co.uk/" target="_blank">Visit Bristol</a>
+  </figcaption>
+</figure>
+
+If ever there was a city with a story to tell, it's Bristol. Enveloped in the hills of South West England, Bristol has developed an inimitable identity and fiercely independent spirit, crafted by its passionate locals.
+
+From the iconic [Clifton Suspension Bridge](https://cliftonbridge.org.uk/visit-explore/) spanning the [Avon Gorge](https://visitbristol.co.uk/blog/post/natural-wonders-near-bristol/) to the bustling [Harbourside](https://visitbristol.co.uk/discover/areas/harbourside/), the elegant Georgian streets of [Clifton](https://visitbristol.co.uk/discover/areas/clifton/) and the historic [Old City](https://visitbristol.co.uk/discover/areas/city-centre-and-old-city/), there is plenty to explore. Bristol is famous for its [street art](https://visitbristol.co.uk/things-to-do/street-art/), with Banksy's work found across the city, and for a thriving independent [food](https://visitbristol.co.uk/food-and-drink/), music and arts scene. Every [summer](https://visitbristol.co.uk/discover/ideas-inspiration/seasons/summer/) the skies fill with colour during the [Bristol International Balloon Fiesta](https://visitbristol.co.uk/event/bristol-international-balloon-fiesta/198734301/), and the Harbourside comes alive for the [Bristol Harbour Festival](https://visitbristol.co.uk/event/bristol-harbour-festival/236925301/).
+
+Find out more about what to see and do at [Visit Bristol](https://visitbristol.co.uk/).
+
+<figure class="my-8">
+  <enhanced:img
+    src={balloonFiesta}
+    alt="A group of balloons lifting off in a mass ascent at Bristol International Balloon Fiesta"
+    class="w-full rounded-4xl"
+  />
+  <figcaption class="mt-2 text-right text-xs text-slate-500">
+    Bristol International Balloon Fiesta. Credit: Paul Box / <a href="https://visitbristol.co.uk/" target="_blank">Visit Bristol</a>
+  </figcaption>
+</figure>
+
+<Card title="The greenest city in England" color="secondary" compact>
+  <p>
+    Bristol has been named the <strong>greenest city in England</strong>, topping a 2024 study by Millets with an eco-friendly score of <strong>9.27 out of 10</strong>.
+  </p>
+  <ul class="list-disc pl-4">
+    <li>The lowest annual emissions of any city in England's top ten.</li>
+    <li>150 walking trails, the second-highest number in England.</li>
+    <li>4.5 parks per 1,000-metre radius, the second-highest in the top ten.</li>
+  </ul>
+  <p>
+    Sustainability runs through city life. Bristol has committed to becoming carbon neutral by 2030 through the One City Approach, a goal shared by the University of Bristol, our conference host. In 2008 Bristol became England's first Cycling City, and it now has an extensive network of bike lanes. A Clean Air Zone has limited high-polluting vehicles in the city centre since 2023.
+  </p>
+  <p>
+    Nature is never far away. You can walk across the Downs in Clifton, explore miles of woodland at Leigh Woods, spot the goats grazing in the Avon Gorge, or relax by the river in Castle Park, just two minutes from Cabot Circus. The city also has plenty of zero-waste and second-hand shops, and many independent coffee shops use compostable packaging and give discounts for reusable cups.
+  </p>
+  <ul class="list-disc pl-4">
+    <li><a href="https://www.bristolandbath.co.uk/news/bristol-named-greenest-city-in-england-in-new-study/" target="_blank">Bristol named greenest city in England</a></li>
+    <li><a href="https://www.bristol.ac.uk/city/bristols-culture/sustainable-by-nature/" target="_blank">Sustainable by nature (University of Bristol)</a></li>
+  </ul>
+</Card>
+
+## A City of Sanctuary
+
+<!-- Permission requested from Bristol City of Sanctuary (Nov 2026). Remove this image if not approved. -->
+<figure class="my-8">
+  <enhanced:img
+    src={refugeeFestival}
+    alt="People holding hands and dancing in a large circle on College Green during the Bristol Refugee Festival"
+    class="w-full rounded-4xl"
+  />
+  <figcaption class="mt-2 text-right text-xs text-slate-500">
+    Bristol Refugee Festival 2026. Credit: Diego Pena, Bristol Refugee Festival / <a href="https://bristol.cityofsanctuary.org/" target="_blank">Bristol City of Sanctuary</a>
+  </figcaption>
+</figure>
+
+Bristol is proud to be a **City of Sanctuary**, and has been part of the City of Sanctuary movement for over a decade. The city is committed to being a welcoming place where people seeking sanctuary feel safe and valued, and where their contribution to the community is recognised.
+
+Bristol City Council's Sanctuary Strategy and Action Plan for 2025 to 2030 focuses on meeting the basic needs of sanctuary seekers, creating opportunities through English language learning, employment, training and volunteering, and building welcoming communities.
+
+- [Bristol Sanctuary Strategy and Action Plan](https://www.bristol.gov.uk/council/policies-plans-and-strategies/bristol-sanctuary-strategy-and-sanctuary-action-plan)
+- [Bristol City of Sanctuary](https://bristol.cityofsanctuary.org/)
