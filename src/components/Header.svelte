@@ -58,14 +58,25 @@
       {
         label: 'Privacy Policy',
         url: '/attend/privacy-policy'
-      },
+      }
       // {
       //   label: 'Terms and Conditions',
       //   url: '/attend/terms-and-conditions'
       // },
+    ]
+  };
+
+  const Sponsorship = {
+    label: 'Sponsorship',
+    url: '/Sponsorship',
+    subMenu: [
       {
-        label: 'Sponsorship',
+        label: 'Sponsorship Opportunities',
         url: '/sponsorship'
+      },
+      {
+        label: 'Adopt-a-ticket',
+        url: '/sponsorship/adopt-a-ticket'
       }
     ]
   };
@@ -185,7 +196,7 @@
     url: '/program/schedule'
   };
 
-  let menuItems = [About, Attend, Programme];
+  let menuItems = [About, Attend, Programme, Sponsorship];
 
   // Helper function to check if current page matches a menu item
   function isMenuItemActive(menuItem: (typeof menuItems)[0]) {
@@ -212,7 +223,7 @@
   class="navbar border-primary/10 sticky top-0 z-20 h-16 rounded-lg border-b-1 bg-white px-4 py-2 sm:relative sm:top-auto sm:h-22 sm:border-none sm:py-6"
 >
   <div class="navbar-start z-20 my-4 w-auto">
-    <Link href="/"><img alt="FOSS4G Logo" class="-ml-3.5 max-w-[220px]" src={svgLogo}></Link>
+    <Link href="/"><img alt="FOSS4G Logo" class="-ml-3.5 max-w-[220px]" src={svgLogo} /></Link>
   </div>
 
   <div class="navbar-end flex-1 overflow-hidden sm:overflow-visible">
