@@ -43,7 +43,7 @@ export function webVersion(source: string): string {
   return source
     .replace(/<!--\s*mailchimp-only\s*-->[\s\S]*?<!--\s*\/mailchimp-only\s*-->/g, '')
     .replaceAll(
-      'https://foss4g2027.org/newsletter/images/',
+      'https://2027.foss4g.org/newsletter/images/',
       `${PUBLIC_BASE_PATH}/newsletter/images/`
     )
     .replace(
