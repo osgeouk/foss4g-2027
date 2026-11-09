@@ -1,5 +1,4 @@
 <script lang="ts">
-  import Heading from '$components/Heading.svelte';
   import Link from '$components/Link.svelte';
 
   let { data } = $props();
@@ -21,14 +20,9 @@
 <svelte:window onresize={resize} />
 
 <main class="px-2 py-2 sm:py-4">
-  <Heading size="md">{data.edition.title}</Heading>
-
-  <div class="mb-6 flex flex-wrap items-center justify-between gap-4 text-sm">
-    <span>{data.edition.date}</span>
-    <span class="flex gap-4">
-      <Link href="/newsletter">All editions</Link>
-      <a href="https://mailchi.mp/foss4g/mailing-list" target="_blank">Join our Mailing List</a>
-    </span>
+  <div class="mb-6 flex flex-wrap justify-end gap-4 text-sm">
+    <Link href="/newsletter">All editions</Link>
+    <a href="https://mailchi.mp/foss4g/mailing-list" target="_blank">Join our Mailing List</a>
   </div>
 
   <iframe
