@@ -41,13 +41,13 @@ You can support the programme by [donating to the OSGeo Travel Grant Program](ht
 
 ## Grant tiers
 
-Grants are expected to be awarded as a lump sum contribution towards travel, accommodation or other expenses, together with a full conference ticket.
+Grants are awarded as a lump sum contribution towards travel, accommodation or other expenses, together with a full conference ticket including a workshop and the gala dinner.
 
-| Tier  | Applicants from | Grant (max) |
-| :---: | --------------- | :---------: |
-| **1** | TBC             | TBC         |
-| **2** | TBC             | TBC         |
-| **3** | TBC             | TBC         |
+| Tier  | Applicants from                                                                                  | Grant (max) |
+| :---: | ------------------------------------------------------------------------------------------------ | :---------: |
+| **1** | Europe: United Kingdom and European Union                                                        | 300 USD     |
+| **2** | Europe outside the EU, Asia (not including countries in tier 3), North Africa and North America  | 600 USD     |
+| **3** | South America, Sub-Saharan Africa, South and South East Asia, and Oceania                        | 1200 USD    |
 
 The size and number of grants may be adjusted at the discretion of the Conference Committee, depending on the funding raised and the applications received.
 
