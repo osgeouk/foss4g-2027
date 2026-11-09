@@ -3,7 +3,6 @@ export const LEVELS = {
   GOLD: 1,
   SILVER: 2,
   BRONZE: 3,
-  VENUE: 4,
   PARTNER: 5,
   SUPPORTER: 6,
 };
@@ -26,12 +25,6 @@ export default {
     logo: () => import('$images/logos/oslandia.png?enhanced'),
     link: 'https://oslandia.com/',
     level: LEVELS.SILVER
-  },
-  uob: {
-    name: 'University of Bristol',
-    logo: () => import('$images/logos/university_of_bristol.png?enhanced'),
-    link: 'https://www.bristol.ac.uk/venues/',
-    level: LEVELS.VENUE
   },
   osgeouk: {
     name: 'OSGeoUK',
