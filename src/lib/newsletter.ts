@@ -8,6 +8,8 @@ export type Edition = {
   slug: string;
   date: string;
   title: string;
+  // One line shown in the news banner on the landing page while this is the latest edition.
+  tagline: string;
   summary: string;
 };
 
@@ -16,6 +18,7 @@ const editions: Edition[] = [
     slug: '2026-11',
     date: 'November 2026',
     title: 'Newsletter #1: Getting ready for Bristol',
+    tagline: 'Getting ready for Bristol: childcare pre-registration and call for sponsors',
     summary:
       'An introduction to Bristol, childcare pre-registration, a call for sponsors, and super early bird registration opening in January.'
   }

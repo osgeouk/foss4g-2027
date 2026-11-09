@@ -8,7 +8,7 @@ Newsletter editions are written as HTML emails in this folder, reviewed through 
 | ------------------------------------- | ------------------------------------------------------------------------------ |
 | `src/newsletter/template.html`        | Starting point for a new edition: header, content blocks, sponsors and footer  |
 | `src/newsletter/editions/<slug>.html` | One file per edition. This is the exact HTML pasted into Mailchimp             |
-| `src/lib/newsletter.ts`               | List of editions (slug, date, title, summary) shown on the website             |
+| `src/lib/newsletter.ts`               | List of editions (slug, date, title, tagline, summary) for the website         |
 | `static/newsletter/images/`           | Images used in emails, served from `https://foss4g2027.org/newsletter/images/` |
 
 ## Creating a new edition
@@ -18,7 +18,7 @@ Newsletter editions are written as HTML emails in this folder, reviewed through 
 3. Replace the `{{...}}` placeholders (subject, preview text, slug, month, headline) and build the content from the blocks in the template.
 4. Check the sponsors section matches `src/lib/sponsors.ts`. When sponsors change, update the logos in the template as well, so future editions pick them up.
 5. Put new images in `static/newsletter/images/`. Keep them under 1200px wide and reference them with the full `https://foss4g2027.org/newsletter/images/...` URL, because email clients need absolute URLs.
-6. Add the edition to the top of the list in `src/lib/newsletter.ts`.
+6. Add the edition to the top of the list in `src/lib/newsletter.ts`. Its `tagline` is shown in the news banner on the landing page, linking to the edition.
 7. Preview with `npm run dev` at `/newsletter/<slug>`, then open a pull request.
 
 ## Sending an approved edition
