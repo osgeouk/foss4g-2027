@@ -32,15 +32,6 @@
     >
       {Editions[0].tagline}
     </Link>
-    <div class="flex-shrink-0">
-      <Link
-        href="/newsletter/{Editions[0].slug}"
-        class="flex items-center gap-1 text-xs whitespace-nowrap"
-      >
-        Read the newsletter
-        <span class="icon-[lucide--arrow-right] inline-block h-4 w-4"></span>
-      </Link>
-    </div>
   </div>
 {/if}
 
