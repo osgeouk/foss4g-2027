@@ -43,7 +43,7 @@ Grants are awarded as a lump sum contribution towards travel, accommodation or o
 | Tier  | Applicants from | Grant (max) |
 | :---: | --------------- | :---------: |
 | **1** | [United Kingdom](https://en.wikipedia.org/wiki/United_Kingdom) and [European Union](https://en.wikipedia.org/wiki/European_Union) | £225 |
-| **2** | [Europe](https://en.wikipedia.org/wiki/Europe) (not including countries in tier 1), [Asia](https://en.wikipedia.org/wiki/Asia) (not including countries in tier 3), [North Africa](https://en.wikipedia.org/wiki/North_Africa) and [North America](https://en.wikipedia.org/wiki/North_America) | £450 |
+| **2** | [Europe](https://en.wikipedia.org/wiki/Europe) (not including countries in tier 1), [East Asia](https://en.wikipedia.org/wiki/East_Asia), other parts of [Asia](https://en.wikipedia.org/wiki/Asia) (not including countries in tier 3), [North Africa](https://en.wikipedia.org/wiki/North_Africa) and [North America](https://en.wikipedia.org/wiki/North_America) | £450 |
 | **3** | [South America](https://en.wikipedia.org/wiki/South_America), [Sub-Saharan Africa](https://en.wikipedia.org/wiki/Sub-Saharan_Africa), [South Asia](https://en.wikipedia.org/wiki/South_Asia), [Southeast Asia](https://en.wikipedia.org/wiki/Southeast_Asia) and [Oceania](https://en.wikipedia.org/wiki/Oceania) | £900 |
 
 The size and number of grants may be adjusted at the discretion of the Conference Committee, depending on the funding raised and the applications received.
