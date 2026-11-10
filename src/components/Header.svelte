@@ -90,6 +90,10 @@
         url: '/attend/register'
       },
       {
+        label: 'Travel Grant Programme',
+        url: '/attend/travel-grant-program'
+      },
+      {
         label: 'UK Visa Information',
         url: '/attend/uk-visa-information'
       },
@@ -124,10 +128,6 @@
       // {
       //   label: 'Accommodation',
       //   url: '/attend/accommodation'
-      // },
-      // {
-      //   label: 'Travel Grant Program',
-      //   url: '/attend/travel-grant-program'
       // }
     ]
   };
