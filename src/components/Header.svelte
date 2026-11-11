@@ -125,14 +125,14 @@
       //   url: '/attend/accommodation'
       // },
       // {
-      //   label: 'Travel Grant Program',
+      //   label: 'Travel Grant Programme',
       //   url: '/attend/travel-grant-program'
       // }
     ]
   };
 
   const Programme = {
-    label: 'Program',
+    label: 'Programme',
     url: '/program/outline',
     subMenu: [
       {

@@ -52,7 +52,7 @@ The FOSS4G Conference is administered by a non-profit organisation, so any surpl
 
 ### Support an inclusive conference
 
-Sponsorship has allowed us to lower the ticket prices for students and community members financing their attendance with personal funds. This is incredibly important for the sustainability of open source geospatial and the diversity of ideas at the conference. A portion of sponsorship goes towards our travel grant program, helping us to bring people to the event who wouldn't normally be able to come.
+Sponsorship has allowed us to lower the ticket prices for students and community members financing their attendance with personal funds. This is incredibly important for the sustainability of open source geospatial and the diversity of ideas at the conference. A portion of sponsorship goes towards our travel grant programme, helping us to bring people to the event who wouldn't normally be able to come.
 
 ## Who runs FOSS4G?
 

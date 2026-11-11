@@ -93,6 +93,6 @@
   {/each}
   
   <!-- <div class="flex justify-end pt-4 sm:pt-8 pr-0">
-    <Button href="/program/outline" class="w-[240px]">View Detailed Program</Button>
+    <Button href="/program/outline" class="w-[240px]">View Detailed Programme</Button>
   </div> -->
 </div>

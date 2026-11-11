@@ -1,16 +1,16 @@
 ---
-title: Program Outline
+title: Programme Outline
 ---
 
 <svelte:head>
-  <title>Program Outline</title>
+  <title>Programme Outline</title>
 </svelte:head>
 
 <script lang="ts">
   import Heading from '$components/Heading.svelte';
 </script>
 
-<Heading>Program Outline</Heading>
+<Heading>Programme Outline</Heading>
 
 FOSS4G 2027 takes place in Bristol, United Kingdom, from Monday 23 to Sunday 29 August 2027.
 
@@ -34,6 +34,6 @@ FOSS4G 2027 takes place in Bristol, United Kingdom, from Monday 23 to Sunday 29 
 | Wednesday 25 August   | Ice Breaker Social      | 19:00 - late   | Zero Degrees Micro Brewery |
 | Thursday 26 August    | [Gala Dinner](/program/gala-dinner) | 19:00 - 01:00  | Ashton Gate Stadium        |
 
-Further details will be announced as the program is finalised.
+Further details will be announced as the programme is finalised.
 
 [Join our Mailing List](https://mailchi.mp/foss4g/mailing-list) to receive updates on the programme.
