@@ -15,13 +15,13 @@ export default {
     name: "Illya Sparkes-Santos",
     title: "Conference Co-Chair",
     photo: () => import("$images/team/illya_s.jpg?enhanced"),
-    bio: "Illya Sparkes-Santos is a lead geospatial engineer at Strava. A long term contributor to FOSS4G projects, based in Bristol for the past 16 years, he has fostered the local community and organized informal geo-based meetups for over a decade. Recently Illya has expanded his community involvement by serving on the LOC for OSGeo events in Bristol.<br/><a href='https://www.linkedin.com/in/illyasantos/' target=_blank>LinkedIn</a>"
+    bio: "Illya Sparkes-Santos is a lead geospatial engineer at Strava. A long term contributor to FOSS4G projects, based in Bristol for the past 16 years, he has fostered the local community and organised informal geo-based meetups for over a decade. Recently Illya has expanded his community involvement by serving on the LOC for OSGeo events in Bristol.<br/><a href='https://www.linkedin.com/in/illyasantos/' target=_blank>LinkedIn</a>"
   },
   json_s: {
     name: "Json Singh",
     title: "Treasurer",
     photo: () => import("$images/team/json_s.jpg?enhanced"),
-    bio: "Json has worked as a developer in Open Source GIS domain in multiple startups for the past 6 years and built many applications from scratch to production, managed teams, hired people and wore many other hats. Volunteering at OSGeo, I have helped at multiple FOSS4Gs and have been on the organizing team for FOSS4G:UK 2025 and FOSS4G-ASIA 2026. In the same community spirit, I am starting a London “Geo” Meetup bringing in more collaboration.<br/><a href='https://www.linkedin.com/in/jsonsingh/' target=_blank>LinkedIn</a>"
+    bio: "Json has worked as a developer in Open Source GIS domain in multiple startups for the past 6 years and built many applications from scratch to production, managed teams, hired people and wore many other hats. Volunteering at OSGeo, I have helped at multiple FOSS4Gs and have been on the organising team for FOSS4G:UK 2025 and FOSS4G-ASIA 2026. In the same community spirit, I am starting a London “Geo” Meetup bringing in more collaboration.<br/><a href='https://www.linkedin.com/in/jsonsingh/' target=_blank>LinkedIn</a>"
   },
   jeremy_m: {
     name: "Jeremy Morley",

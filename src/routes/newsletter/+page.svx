@@ -1,0 +1,33 @@
+---
+title: Newsletter
+---
+
+<svelte:head>
+  <title>Newsletter</title>
+</svelte:head>
+
+<script lang="ts">
+  import Heading from '$components/Heading.svelte';
+  import Card from '$components/Card.svelte';
+  import Link from '$components/Link.svelte';
+  import Editions from '$lib/newsletter';
+</script>
+
+<Heading>Newsletter</Heading>
+
+Our newsletter is the best way to hear first about registration, the programme, sponsorship, the travel grant programme and volunteering at FOSS4G 2027 in Bristol.
+
+<Card title="Stay updated" color="secondary" compact button={{ href: 'https://mailchi.mp/foss4g/mailing-list', text: 'Join our Mailing List' }}>
+  <p class="m-0">Sign up to receive new editions of the FOSS4G 2027 newsletter by email.</p>
+</Card>
+
+## All editions
+
+{#each Editions as edition}
+  <section>
+    <h3>{edition.date}</h3>
+    <strong>{edition.title}</strong>
+    <p>{edition.summary}</p>
+    <Link href={`/newsletter/${edition.slug}`}>Read this edition</Link>
+  </section>
+{/each}

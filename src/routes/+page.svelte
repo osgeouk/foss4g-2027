@@ -14,7 +14,7 @@
   import Button from '$components/Button.svelte';
   import Card from '$components/Card.svelte';
   import Video from '$components/Video.svelte';
-  import News from '$lib/news';
+  import Editions from '$lib/newsletter';
   import Header from '$components/Header.svelte';
 </script>
 
@@ -22,34 +22,18 @@
   <title>FOSS4G 2027</title>
 </svelte:head>
 
-<div class="bg-primary/90 mb-6 flex items-center gap-4 rounded-xl px-4 py-3 text-white">
-  <a href="https://2026.foss4g.org/en/" class="hover:underline">FOSS4G 2026</a>in Hiroshima, Japan has concluded! 🗾
-</div>
-<!-- 
-{#if News.length > 0}
+{#if Editions.length > 0}
   <div class="bg-primary/90 mb-6 flex items-center gap-4 rounded-xl px-4 py-3 text-white">
-    <span class="hidden whitespace-nowrap sm:inline">{News[0].date}</span>
+    <span class="hidden whitespace-nowrap sm:inline">{Editions[0].date}</span>
     <span class="hidden whitespace-nowrap sm:inline">|</span>
     <Link
-      href={News[0].link}
-      target="_blank"
+      href="/newsletter/{Editions[0].slug}"
       class="min-w-0 flex-1 overflow-hidden text-ellipsis whitespace-nowrap"
     >
-      {News[0].title}
+      {Editions[0].tagline}
     </Link>
-    <div class="flex-shrink-0">
-      <Link
-        href={News[0].link}
-        target="_blank"
-        class="flex items-center gap-1 text-xs whitespace-nowrap"
-      >
-        Read more
-        <span class="icon-[lucide--external-link] inline-block h-4 w-4"></span>
-      </Link>
-    </div>
   </div>
 {/if}
--->
 
 <!-- Hero -->
 <main class="m:space-y-12 mmb-8 space-y-12 sm:space-y-16">

@@ -9,7 +9,7 @@
 
 ![Auckland]($images/foss4g-italy-group.jpg)
 
-FOSS4G is the acronym for Free and Open Source Software for Geospatial. It is the annual recurring global event hosted by [OSGeo](https://www.osgeo.org/), the non-profit organization that supports and promotes the collaborative development of free and open source geographic technologies and open geospatial data.
+FOSS4G is the acronym for Free and Open Source Software for Geospatial. It is the annual recurring global event hosted by [OSGeo](https://www.osgeo.org/), the non-profit organisation that supports and promotes the collaborative development of free and open source geographic technologies and open geospatial data.
 
 The conference covers all kinds of topics related to geospatial information and earth observation openness from Software development to Transition to FOSS4G, Use cases and applications, Education and research and Open data.
 
@@ -33,8 +33,8 @@ The foundation's goal is to encourage the use and collaborative development of c
     - Developers and Users of GeoSpatial Software
     - Technical Leaders
     - Private Companies
-    - Governmental Organizations
-    - Non-Governmental Organizations (NGO)
+    - Governmental Organisations
+    - Non-Governmental Organisations (NGO)
     - Teachers and Education Professionals
     - Scientific Communities and Researchers
 
@@ -45,7 +45,7 @@ The foundation's goal is to encourage the use and collaborative development of c
 
 - Software status, new software/project development, benchmarking
 - FOSS4G implementations in strategic application domains: land management, crisis/disaster response, smart cities, population mapping, climate change, ocean and marine monitoring, etc.
-- Data visualization: spatial analysis, manipulation and visualization of geospatial data
+- Data visualisation: spatial analysis, manipulation and visualisation of geospatial data
 - Data collection, data sharing, data science, open data, big data, data exploitation platforms
 - Sensors, remote sensing, laser-scanning, structure from motion
 - New trends: IoT, Indoor mapping, drones - UAV (unmanned aerial vehicle)-, Artificial intelligence - machine learning, deep learning-, geospatial data structures

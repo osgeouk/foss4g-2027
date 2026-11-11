@@ -1,6 +1,5 @@
 <script lang="ts">
   import Link from '$components/Link.svelte';
-  import pngLogo from '$images/FOSS4G2027-BRISTOL.png';
   import svgLogo from '$images/foss4g2027_header.svg';
   import { page } from '$app/state';
 
@@ -24,8 +23,8 @@
     url: '/organisers',
     subMenu: [
       {
-        label: 'News',
-        url: '/news'
+        label: 'Newsletter',
+        url: '/newsletter'
       },
       // {
       //   label: 'Map',
@@ -126,14 +125,14 @@
       //   url: '/attend/accommodation'
       // },
       // {
-      //   label: 'Travel Grant Program',
+      //   label: 'Travel Grant Programme',
       //   url: '/attend/travel-grant-program'
       // }
     ]
   };
 
   const Programme = {
-    label: 'Program',
+    label: 'Programme',
     url: '/program/outline',
     subMenu: [
       {

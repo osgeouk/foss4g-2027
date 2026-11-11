@@ -14,7 +14,7 @@
 
 <button
   id="scroll-to-top"
-  class="scroll-to-top bg-secondary text-primary {show ? '' : 'hidden'}"
+  class="scroll-to-top bg-success text-primary {show ? '' : 'hidden'}"
   on:click={scrollToTop}
   aria-label="Scroll to top"
 >
