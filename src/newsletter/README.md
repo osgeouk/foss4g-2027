@@ -4,11 +4,12 @@ Newsletter editions are written as HTML emails in this folder, reviewed through 
 
 ## Files
 
-| Path                                  | Purpose                                                                        |
-| ------------------------------------- | ------------------------------------------------------------------------------ |
-| `src/newsletter/template.html`        | Starting point for a new edition: header, content blocks, sponsors and footer  |
-| `src/newsletter/editions/<slug>.html` | One file per edition. This is the exact HTML pasted into Mailchimp             |
-| `src/lib/newsletter.ts`               | List of editions (slug, date, title, tagline, summary) for the website         |
+| Path                                  | Purpose                                                                         |
+| ------------------------------------- | ------------------------------------------------------------------------------- |
+| `src/newsletter/template.html`        | Starting point for a new edition: header, content blocks, sponsors and footer   |
+| `src/newsletter/editions/<slug>.html` | One file per edition. This is the exact HTML pasted into Mailchimp              |
+| `src/newsletter/welcome.html`         | Welcome email sent automatically to new subscribers (not shown on the website)  |
+| `src/lib/newsletter.ts`               | List of editions (slug, date, title, tagline, summary) for the website          |
 | `static/newsletter/images/`           | Images used in emails, served from `https://2027.foss4g.org/newsletter/images/` |
 
 ## Creating a new edition
@@ -28,6 +29,20 @@ Newsletter editions are written as HTML emails in this folder, reviewed through 
 3. Paste the full contents of `editions/<slug>.html`.
 4. Set the subject line to match the `<title>` and the preview text to match the hidden preheader.
 5. Send a test email and check it on desktop and mobile, then send or schedule the campaign.
+
+## Welcome email
+
+`welcome.html` is sent automatically by Mailchimp to everyone who joins the mailing list. Subscribers may receive it months after it was written, so keep it evergreen: link to pages rather than forms, and leave out dates, prices and offers that will go out of date.
+
+To set it up in Mailchimp:
+
+1. Go to **Automations** and create a journey from the **Welcome new subscribers** starting point. The trigger is a contact signing up to the FOSS4G audience.
+2. Add a **Send email** step. Set the subject to match the `<title>` and the preview text to match the hidden preheader.
+3. Design the email with **Code your own → Paste in code** and paste the full contents of `welcome.html`.
+4. Send a test email, then turn the journey on.
+5. In **Audience → Signup forms**, switch off Mailchimp's default final welcome email, so new subscribers do not get two welcome emails.
+
+When `welcome.html` changes, for example when sponsors are added, paste the new HTML into the journey's email step. The automation keeps sending the old version until you do.
 
 ## Email HTML rules
 
