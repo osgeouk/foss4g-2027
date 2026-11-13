@@ -4,12 +4,12 @@ Newsletter editions are written as HTML emails in this folder, reviewed through 
 
 ## Files
 
-| Path                                  | Purpose                                                                        |
-| ------------------------------------- | ------------------------------------------------------------------------------ |
-| `src/newsletter/template.html`        | Starting point for a new edition: header, content blocks, sponsors and footer  |
-| `src/newsletter/editions/<slug>.html` | One file per edition. This is the exact HTML pasted into Mailchimp             |
-| `src/newsletter/welcome.html`         | Welcome email sent automatically to new subscribers (not shown on the website) |
-| `src/lib/newsletter.ts`               | List of editions (slug, date, title, tagline, summary) for the website         |
+| Path                                  | Purpose                                                                         |
+| ------------------------------------- | ------------------------------------------------------------------------------- |
+| `src/newsletter/template.html`        | Starting point for a new edition: header, content blocks, sponsors and footer   |
+| `src/newsletter/editions/<slug>.html` | One file per edition. This is the exact HTML pasted into Mailchimp              |
+| `src/newsletter/welcome.html`         | Welcome email sent automatically to new subscribers (not shown on the website)  |
+| `src/lib/newsletter.ts`               | List of editions (slug, date, title, tagline, summary) for the website          |
 | `static/newsletter/images/`           | Images used in emails, served from `https://2027.foss4g.org/newsletter/images/` |
 
 ## Creating a new edition
