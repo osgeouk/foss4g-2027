@@ -95,6 +95,10 @@
       {
         label: 'Childcare',
         url: '/attend/childcare'
+      },
+      {
+        label: 'Academic Track (Draft)',
+        url: '/attend/academic-track'
       }
       // {
       //   label: 'Merchandise',
