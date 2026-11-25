@@ -75,8 +75,7 @@ Previous FOSS4G conferences have ranked applications using a points system. The 
 | Refugee or displaced person                                      | 1                |
 | Women and other underrepresented groups                          | 1                |
 | Student (including PhD students)                                 | 1                |
-| Accepted talk or workshop (one presenting author only)           | 3                |
-| Submitted talk or workshop that was not selected                 | 1                |
+| Intends to submit a talk or workshop (short abstract in the TGP application form) | 2 |
 | Past contributions to OSGeo projects or community                | 3                |
 | Demonstrated usage and experience with OSGeo software            | 1                |
 
