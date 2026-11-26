@@ -15,6 +15,14 @@ export type Edition = {
 
 const editions: Edition[] = [
   {
+    slug: '2026-11-theme',
+    date: 'November 2026',
+    title: 'Newsletter #2: Help shape the theme for FOSS4G 2027',
+    tagline: 'Help shape the theme for FOSS4G 2027: share your ideas by 6 December',
+    summary:
+      'We are asking the community to help inspire the overarching theme and slogan for FOSS4G 2027. Share your ideas by 6 December 2026.'
+  },
+  {
     slug: '2026-11',
     date: 'November 2026',
     title: 'Newsletter #1: Getting ready for Bristol',
