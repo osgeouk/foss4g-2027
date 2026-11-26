@@ -14,6 +14,12 @@ export default {
     link: 'https://developmentseed.org/',
     level: LEVELS.GOLD
   },
+  sparkgeo: {
+    name: 'Sparkgeo',
+    logo: () => import('$images/logos/sparkgeo.png?enhanced'),
+    link: 'https://sparkgeo.com/',
+    level: LEVELS.GOLD
+  },
   auspatious: {
     name: 'Auspatious',
     logo: () => import('$images/logos/auspatious.png?enhanced'),
